@@ -3,25 +3,16 @@ Drone programming workshop aimed at grade 6-12
 
 ## DJI Tello Edu Drone
 
-Small safe drone that has an SDK and tools for programming.
+Small safe drone that has an [SDK](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf) and tools for programming.
 
 https://store.dji.com/product/tello-edu?vid=47091 
 
-## Scratch 2
+## Node-RED
+[Node-RED](https://nodered.org/) is a programming tool for wiring devices together. We use it in this workshop to control a Tello Drone and try to perform various tasks.
 
-Drag and Drop programming interface
+We use the Flows with Node-RED to interact with the Drone sending commands and receiving status.
 
-https://scratch.mit.edu/download/scratch2#installation
+# Running the workshop
 
-## Node
-
-Node is used for both the node.js example and also executing the Tello Server
-
-https://nodejs.org/en/download/
-
-## Tello Node server and Scratch 2 plugin
-
-https://terra-1-g.djicdn.com/2d4dce68897a46b19fc717f3576b7c6a/Tello-edu-download/Scratch%20README/Tello%20EDU%20Scratch%20README%200507.pdf 
-https://terra-1-g.djicdn.com/2d4dce68897a46b19fc717f3576b7c6a/Tello-edu-download/Tello%20EDU%20scratch%20ts/scratch2.0_Tello_EDU.7z
-
-## Adobe Air
+The Tello Drone is controlled via UDP messages over a wifi connection with the Drone as the access Point. 
+This allows the workshop to be run from a single computer.
